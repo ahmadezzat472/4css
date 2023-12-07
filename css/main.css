@@ -239,6 +239,8 @@ button {
     display: block;
 	filter: brightness(1);
     transition: var(--middle-transition);
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .nav__logo img:hover {
